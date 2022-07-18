@@ -117,6 +117,13 @@ int front(Queuetype *q)
     return (q -> data[q -> front]);
 }
 
+int back(Queuetype *q)
+{
+    if (q -> rear == 0)
+        return (q -> data[q -> count - 1]);
+    return (q -> data[q -> rear - 1]);
+}
+
 int main() 
 {
 
