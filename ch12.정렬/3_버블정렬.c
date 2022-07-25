@@ -2,7 +2,7 @@
 
 void bubble_sort(int list[], int n)
 {
-    int temp, j;
+    int temp;
     for(int i = n - 1; i > 0; i--)
     {
         for(int j = 0; j < i; j++)
